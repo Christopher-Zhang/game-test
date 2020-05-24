@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "4b91fb91-948c-4109-94e8-b3dc86309384",
+            "Value": {
+                "id": "879e4c47-9c97-45c6-9318-436363e84d7b",
+                "resourcePath": "scripts\\ScreenShake\\ScreenShake.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4cb2b65d-7386-4a10-83d2-8a7297b8c378",
             "Value": {
                 "id": "3f68b0a4-e333-48b9-9dd8-5d289d7b11b3",
@@ -204,6 +212,14 @@
                 "id": "fdb12b59-9edb-41d2-8231-99bcad5a188f",
                 "resourcePath": "scripts\\script10\\script10.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5242668d-2306-4a0f-80ae-20878c6402b3",
+            "Value": {
+                "id": "7dafc43a-2e6a-4de9-9e05-eb02df893bcb",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -507,7 +523,8 @@
         "1edf350f-5cd8-430a-b99f-cac5271238a6",
         "8dfceb92-f244-4553-890d-f973d50df265",
         "51d0c120-95e9-4577-90fa-370d09388961",
-        "0d329362-cc1f-4445-b7da-64b88b292416"
+        "0d329362-cc1f-4445-b7da-64b88b292416",
+        "4b91fb91-948c-4109-94e8-b3dc86309384"
     ],
     "tutorial": ""
 }
