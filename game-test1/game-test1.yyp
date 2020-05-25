@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1a12f1c5-6a33-4614-902e-4524b482969e",
+            "Value": {
+                "id": "d85f7403-0ed3-4da5-9346-173ba325f227",
+                "resourcePath": "sprites\\sTrigger\\sTrigger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1edf350f-5cd8-430a-b99f-cac5271238a6",
             "Value": {
                 "id": "f9655261-3323-4947-a73f-d678983e5a37",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "4fbbb96a-d1fc-45be-8d1a-7e309b3bbf6d",
+            "Value": {
+                "id": "df380712-1dde-46d0-844d-19fbac1518f6",
+                "resourcePath": "sprites\\sDungeonTile2\\sDungeonTile2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51c5cfc4-b624-4b0d-8601-d7399a6983a9",
             "Value": {
                 "id": "16d7c415-f822-41b7-94ed-40d339940db8",
@@ -291,6 +307,14 @@
             "Value": {
                 "id": "d20bef44-6f51-4e06-a45a-6288a88c0a38",
                 "resourcePath": "objects\\oSkeleton\\oSkeleton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "66632c3f-4ae8-4cfa-af0a-c086706f06b8",
+            "Value": {
+                "id": "0ca5d415-a64c-4b78-8b4e-a27364e4bdd1",
+                "resourcePath": "objects\\oRoomExit\\oRoomExit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -543,6 +567,14 @@
             }
         },
         {
+            "Key": "cde31409-efc8-483f-9b38-9852d30549c3",
+            "Value": {
+                "id": "552aebdd-ddbd-4674-a305-137fc2cbbae2",
+                "resourcePath": "rooms\\rRoom2\\rRoom2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d0517cc8-1cf8-4a99-b2c8-954d476e1649",
             "Value": {
                 "id": "031100c4-7e0e-4ced-93b2-6fb0e57727f4",
@@ -620,6 +652,14 @@
                 "id": "91639083-cb20-4a32-b78b-044f0544b4fe",
                 "resourcePath": "views\\fb56ba33-c0b0-44c6-b157-7691609372c9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd4ce153-cbbc-42dd-b885-34be08c85f49",
+            "Value": {
+                "id": "bb76cea9-99c6-47fc-8add-bd54cee490b0",
+                "resourcePath": "tilesets\\tDungeonTile2\\tDungeonTile2.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
