@@ -1,0 +1,7 @@
+TODO
+
+Work out health bars
+	work out taking damage
+
+Add enemy behavior?
+

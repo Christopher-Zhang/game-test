@@ -23,6 +23,26 @@
             "enumb": 4,
             "eventtype": 7,
             "m_owner": "4cb2b65d-7386-4a10-83d2-8a7297b8c378"
+        },
+        {
+            "id": "a7c8d142-2e98-4533-9f61-280f19f5db5d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4cb2b65d-7386-4a10-83d2-8a7297b8c378"
+        },
+        {
+            "id": "4ca5f7a8-bc63-4624-89c0-54386f790deb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "4cb2b65d-7386-4a10-83d2-8a7297b8c378"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -96,6 +116,62 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "entityNPC",
+            "varType": 3
+        },
+        {
+            "id": "6ea69957-4a2d-49ea-b484-ca5a58f290cb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "entityShadow",
+            "varType": 3
+        },
+        {
+            "id": "91a86237-a8a4-4f3d-b9d4-d6e779c50daf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "entityHitScript",
+            "varType": 0
+        },
+        {
+            "id": "25ac767b-ed66-4ffa-bdf5-a89a20d889eb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "isDie",
+            "varType": 3
+        },
+        {
+            "id": "e8d1ce42-eed7-45fd-afae-47de8e35fd27",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "doesDamage",
             "varType": 3
         }
     ],

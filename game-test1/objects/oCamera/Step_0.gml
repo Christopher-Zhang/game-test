@@ -7,11 +7,17 @@ if(instance_exists(follow)){
 }
 
 //update object position
-x += (xTo-x)/15;
-y += (yTo-y)/15;
+x = xTo;
+y = yTo;
 
 //Keep camera center inside room
-x = clamp(x,viewWidthHalf, room_width-viewWidthHalf);
-y = clamp(x,viewHeightHalf, room_height-viewHeightHalf);
+// x = clamp(x,viewWidthHalf, room_width-viewWidthHalf);
+// y = clamp(y,viewHeightHalf, room_height-viewHeightHalf);
 
 //todo screenshake?? part 6 12:40
+x += random_range(-shakeRemain,shakeRemain);
+y += random_range(-shakeRemain,shakeRemain);
+
+shakeRemain = max(0, shakeRemain - ((1/shakeLength) * shakeMagnitude));
+
+camera_set_view_pos(cam,x-viewWidthHalf,y-viewHeightHalf);

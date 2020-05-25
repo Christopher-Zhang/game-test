@@ -9,15 +9,18 @@ if (hits > 0){
 		if(ds_list_find_index(hitByAttack, hitID) == -1){
 			ds_list_add(hitByAttack, hitID);
 			with(hitID){
-				image_blend = c_red;
-				//todo
+				//image_blend = c_red;
+				if(entityHitScript!=-1) script_execute(entityHitScript);
+				
+				
+				
 
 			}
 		}
 	}
 }
 
-
+ds_list_destroy(hitByAttackNow);
 
 
 mask_index = sPlayer;
