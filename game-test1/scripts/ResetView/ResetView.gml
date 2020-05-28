@@ -1,0 +1,1 @@
+camera_set_view_pos(cam,0,0);

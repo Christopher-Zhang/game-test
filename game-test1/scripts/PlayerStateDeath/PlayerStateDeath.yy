@@ -1,8 +1,8 @@
 {
-    "id": "6a970418-de8a-41b0-823f-7d7742ba894e",
+    "id": "da7651d3-ad77-48ef-a397-9a8ddefb0baa",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "script15",
+    "name": "PlayerStateDeath",
     "IsCompatibility": false,
     "IsDnD": false
 }

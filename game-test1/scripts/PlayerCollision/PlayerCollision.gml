@@ -30,7 +30,7 @@ while(_entityCount > 0){
 
 
 //Horizontal Move Commit
-x+= hSpeed;
+//x+= hSpeed;
 
 //clear list between axes
 ds_list_clear(_entityList);
@@ -66,7 +66,7 @@ while(_entityCount > 0){
 
 
 //Vertical Move Commit
-y+=vSpeed;
+//y+=vSpeed;
 
 ds_list_destroy(_entityList);
 

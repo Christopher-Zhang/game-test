@@ -4,7 +4,7 @@
 if(instance_exists(follow)){
 	xTo = follow.x;
 	yTo = follow.y;
-}
+
 
 //update object position
 x = xTo;
@@ -21,3 +21,5 @@ y += random_range(-shakeRemain,shakeRemain);
 shakeRemain = max(0, shakeRemain - ((1/shakeLength) * shakeMagnitude));
 
 camera_set_view_pos(cam,x-viewWidthHalf,y-viewHeightHalf);
+}
+if(!global.followCam) ResetView();

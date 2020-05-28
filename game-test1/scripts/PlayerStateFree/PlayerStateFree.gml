@@ -17,6 +17,7 @@ y += vSpeed;
 
 //Check collision
 PlayerCollision();
+WaterCollision();
 
 //Update Sprite Index
 var _oldSprite = sprite_index;
