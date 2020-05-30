@@ -9,3 +9,4 @@
 #macro PLAYER_HP 10
 //#macro HP_WIDTH
 //#macro HP_LENGTH
+#macro MIN_SPEED 0.1

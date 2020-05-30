@@ -11,6 +11,6 @@ if(tilemap_get_at_pixel(waterMap, x, y+vSpeed)){
 	//vSpeed=0;
 	_drown = true;
 }
-PlayerMove();
+
 
 if(_drown) state = PlayerStateDrown;

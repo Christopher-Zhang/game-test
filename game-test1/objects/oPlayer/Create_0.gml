@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 state = PlayerStateFree;
+lastState = state;
 
 
 hitByAttack = -1;

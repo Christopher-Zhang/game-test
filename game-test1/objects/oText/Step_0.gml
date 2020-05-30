@@ -13,7 +13,11 @@ if(keyboard_check_pressed(ord("F"))){
 			with(oTextQueued) ticket--;
 		}
 		else{
-			with(oPlayer) state=lastState;
+			with(oPlayer){
+				var temp = lastState;
+				lastState = state;
+				state = temp;
+			}
 		}
 	}
 	else{

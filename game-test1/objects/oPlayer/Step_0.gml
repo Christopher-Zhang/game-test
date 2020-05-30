@@ -11,8 +11,10 @@ keyShank = keyboard_check_pressed(vk_space);
 keyInteract = keyboard_check_pressed(ord("F"));
 
 keyRun = keyboard_check(vk_shift);
-
-	
+keyPressed = keyLeft||keyRight||keyUp||keyDown||keyShank;
+if(state==PlayerStateFree&&keyPressed){
+	lastState = state;
+}
 
 inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
 inputMagnitude = (keyRight-keyLeft!=0) || (keyDown-keyUp!=0);

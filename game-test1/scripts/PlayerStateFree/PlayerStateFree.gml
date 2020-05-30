@@ -18,6 +18,7 @@ y += vSpeed;
 //Check collision
 PlayerCollision();
 WaterCollision();
+PlayerMove();
 
 //Update Sprite Index
 var _oldSprite = sprite_index;
@@ -37,6 +38,7 @@ PlayerAnimateSprite();
 
 
 if(keyShank){
+	lastState = state;
 	state = PlayerStateShank;
 }
 
@@ -54,7 +56,7 @@ if(keyInteract){
 	if((activate == noone) || activate.entityActivateScript == -1){
 		
 	}
-	else{
+	else if(lastState!=PlayerStateLocked){
 		//Activate the entity
 		ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
 		
